@@ -1,0 +1,128 @@
+.Travel {
+  width: 100%;
+  height: 1024px;
+  background: url("https://i.ibb.co/G9FcPCP/Travel-page.png");
+  background-position: center center;
+  background-size: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Travel__container {
+  position: relative;
+  max-width: 955px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.Travel__body {
+  position: relative;
+  min-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.Travel__logo {
+  position: absolute;
+  right: -200px;
+  top: -80px;
+  transform: translateY(-8px);
+  animation: bottom-to-top 0.8s ease-in infinite alternate;
+  z-index: 1;
+}
+
+@keyframes bottom-to-top {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.Travel__bottom_img {
+  position: absolute;
+  right: -165px;
+  bottom: -180px;
+}
+
+.Travel__info h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 96px;
+  margin-bottom: 30px;
+}
+
+.Travel__content {
+  display: flex;
+  justify-content: center;
+}
+
+.Travel__map {
+  background: #420e54;
+  width: 477px;
+  opacity: 0.6;
+  border-radius: 30px 0px 0px 30px;
+}
+
+.Travel__explain {
+  background: #ffffff;
+  width: 477px;
+  opacity: 0.6;
+  border-radius: 0px 30px 30px 0px;
+}
+
+.Travel__explain p {
+  padding: 26px 81px 0px 19px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2a2c3a;
+}
+
+@media (max-width: 1281px) {
+  .Travel__logo {
+    display: none;
+  }
+
+  .Travel__bottom_img {
+    display: none;
+  }
+}
+
+@media (max-width: 997px) {
+  .Travel__map {
+    width: 350px;
+  }
+  .Travel__map_img {
+    width: 370px;
+    height: 530px;
+  }
+  .Travel__explain {
+    width: 350px;
+  }
+}
+
+@media (max-width: 713px) {
+  .Travel__map {
+    width: 300px;
+  }
+  .Travel__map_img {
+    width: 300px;
+    height: 500px;
+  }
+  .Travel__explain {
+    width: 300px;
+  }
+}
+
+@media (max-width: 630px) {
+  .Travel {
+    display: none;
+  }
+}

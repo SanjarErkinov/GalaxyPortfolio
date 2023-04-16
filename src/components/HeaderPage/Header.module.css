@@ -1,0 +1,104 @@
+.header {
+  width: 100%;
+  background-color: rgba(4, 5, 43, 0.9);
+  backdrop-filter: blur(6px);
+  /* position: sticky; */
+  /* top: 0px; */
+  /* z-index: 50; */
+}
+
+.Header__container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.Header__body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 0px;
+  min-height: 200px;
+}
+
+.menu__body ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  justify-content: space-evenly;
+}
+
+.menu__body li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 3px;
+  padding: 5px 0px;
+}
+
+.menu__body li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.menu__body li a:hover {
+  opacity: 0.6;
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 805px) {
+  .menu__body ul {
+    column-gap: 50px;
+  }
+  .menu__body a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 610px) {
+  .menu__body ul {
+    column-gap: 30px;
+  }
+  .menu__body a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 530px) {
+  .menu__body ul {
+    column-gap: 10px;
+  }
+  .menu__body a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    height: 600px;
+    background-image: url("https://i.ibb.co/br98Lq0/Mobileback.png");
+    object-position: right;
+    background-size: no-repeat;
+    background-size: cover;
+  }
+  .Header__container {
+    position: absolute;
+    max-width: 147px;
+    left: 0px;
+    background: #171571;
+    opacity: 0.2;
+    height: 550px;
+  }
+
+  .menu__body ul {
+    margin-top: 50px;
+  }
+  .menu__body ul li {
+    margin-top: 40px;
+  }
+}

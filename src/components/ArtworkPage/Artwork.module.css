@@ -1,0 +1,140 @@
+.Artwork {
+  width: 100%;
+  height: 1080px;
+  background: url("https://i.ibb.co/sHkj5Xb/artwork-page-1.png");
+  background-position: center center;
+  background-size: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.Artwork__logo {
+  position: absolute;
+  top: 0px;
+  left: 225px;
+  transform: translateY(-8px);
+  animation: bottom-to-top 0.8s ease-in infinite alternate;
+}
+
+@keyframes bottom-to-top {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.Artwork__container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+.Artwork__body {
+  padding: 5px 0px;
+  min-height: 600px;
+}
+
+.Artwork__info h1 {
+  text-align: center;
+  font-size: 64px;
+  line-height: 96px;
+  color: #ffffff;
+  text-shadow: 0px 0px 3.5px #ffffff;
+  margin-bottom: 155px;
+}
+
+.Artwork__bottom_img img {
+  display: none;
+}
+
+.Artwork__info p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #979ea6;
+}
+
+.Artwork__info div {
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  .Artwork__logo {
+    left: 0px;
+  }
+  .Artwork__container {
+    max-width: 600px;
+  }
+  .Artwork__info div {
+    width: 100%;
+     /* height: 301px; */
+     display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+    .Artwork {
+      align-items: normal;
+    }
+    .Artwork__logo {
+      display: none;
+    }
+    .Artwork__info h1 {
+      margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 630px) {
+  .Artwork__container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 630px) {
+  .Artwork {
+    background: url("https://i.ibb.co/cX2y74Z/Art-mobile.png");
+    background-size: no-repeat;
+    background-size: cover;
+    height: 1000px;
+  }
+  .Artwork__bottom_img img {
+    display: inline;
+    position: absolute;
+  }
+}
+
+@media (max-width: 500px) {
+  .Artwork__container {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 420px) {
+  .Artwork__container {
+    max-width: 300px;
+  }
+}
+
+
+@media (max-width: 325px) {
+  .Artwork__container {
+    max-width: 200px;
+  }
+  .Artwork__info h1 {
+    margin-bottom: 0px;
+    font-size: 44px;
+  }
+  .Artwork__bottom_img img {
+    display: inline;
+    position: absolute;
+    width: 200px;
+    height: 400px;
+  }
+}
