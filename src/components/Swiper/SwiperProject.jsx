@@ -47,19 +47,19 @@ export default function SwiperProject() {
         className="swiper"
       >
         <SwiperSlide className="swiper_slide" >
-          <Image src="/SwiperImg/winners.png" alt="" width={190} height={190} />
+          <Image src="/SwiperImg/winners.png" alt="winners-link" width={190} height={190} />
         </SwiperSlide>
         <SwiperSlide className="swiper_slide" >
-        <Image src="/SwiperImg/pearson.png" alt="" width={190} height={190} />
+        <Image src="/SwiperImg/pearson.png" alt="pearson-link" width={190} height={190} />
         </SwiperSlide>
         <SwiperSlide className="swiper_slide" >
-        <Image src="/SwiperImg/source.png" alt="" width={190} height={190} />
+        <Image src="/SwiperImg/source.png" alt="source-link" width={190} height={190} />
         </SwiperSlide>
         <SwiperSlide className="swiper_slide" >
-        <Image src="/SwiperImg/tims.png" alt="" width={190} height={190} />
+        <Image src="/SwiperImg/tims.png" alt="tims-link" width={190} height={190} />
         </SwiperSlide>
         <SwiperSlide className="swiper_slide" >
-        <Image src="/SwiperImg/hudson.png" alt="" width={190} height={190} />
+        <Image src="/SwiperImg/hudson.png" alt="hudson-link" width={190} height={190} />
         </SwiperSlide>
       </Swiper>
     </motion.div>

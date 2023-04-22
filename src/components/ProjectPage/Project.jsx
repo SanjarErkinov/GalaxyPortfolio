@@ -1,8 +1,6 @@
 "use client";
 import Image from 'next/image';
 import styles from './Project.module.css'
-import Modal from '../Modal/Modal';
-import { useState } from 'react';
 import SwiperProject from "@/components/Swiper/SwiperProject";
 import { motion } from "framer-motion"
 
