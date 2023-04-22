@@ -1,32 +1,34 @@
 .footer {
   width: 100%;
   min-height: 170px;
-  background-image: url("https://i.ibb.co/68rtwLY/footer.png");
+  background-image: url("https://i.ibb.co/v1bGjyq/footer-1.png");
   background-size: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
-.Footer__container {
+.footer__container {
   max-width: 950px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.Footer__body {
+.footer__body {
   padding: 5px 0px;
   /* display: flex; */
   /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
   margin-top: 10px;
+  z-index: 50;
 }
 
-.Footer__menu ul {
+.footer__menu ul {
   display: flex;
   justify-content: space-evenly;
 }
 
-.Footer__menu ul li {
+.footer__menu ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -34,20 +36,20 @@
   padding: 5px 0px;
 }
 
-.Footer__menu ul li a {
+.footer__menu ul li a {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #ffffff;
 }
 
-.Footer__social ul {
+.footer__social ul {
   display: flex;
   justify-content: center;
   column-gap: 20px;
 }
 
-.Footer__social ul li {
+.footer__social ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,51 +57,162 @@
   padding: 15px 0px;
 }
 
-.Footer__title {
+.footer__title {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Footer__title p {
+.footer__title p {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
+.bg1 {
+  background: url("https://i.ibb.co/FwHyH3v/FooterBg.png");
+  width: 220px;
+  height: 120px;
+  position: absolute;
+  right: 132px;
+  top: 13px;
+  transform: translateY(-8px);
+  animation: bottom-to-top 0.9s ease-in infinite alternate;
+}
+
+.bg2 {
+  width: 54.5px;
+  height: 54.5px;
+  right:113px;
+  top: 85px;
+  background: linear-gradient(
+    180deg,
+    #ffffff -21.74%,
+    #6be4ff 17.53%,
+    rgba(55, 27, 115, 0.6) 87.54%,
+    rgba(10, 17, 83, 0.4) 153.62%
+  );
+  box-shadow: 0px -2.07031px 20.7031px #7d5fbb, 0px -2.07031px 36.2304px #5f3ca8;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-8px);
+  animation: bottom-to-top2 1s ease-in infinite alternate;
+}
+
+.bg3 {
+  width: 40.32px;
+  height: 40.32px;
+  right:73px;
+  top: 26px;
+  background: linear-gradient(
+    180deg,
+    #ffffff -21.74%,
+    #6be4ff 17.53%,
+    rgba(55, 27, 115, 0.6) 87.54%,
+    rgba(10, 17, 83, 0.4) 153.62%
+  );
+  box-shadow: 0px -2.07031px 20.7031px #7d5fbb, 0px -2.07031px 36.2304px #5f3ca8;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateY(-8px);
+  animation: bottom-to-top3 1.2s ease-in infinite alternate;
+}
+
+@keyframes bottom-to-top {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes bottom-to-top2 {
+  0% {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(-13px);
+  }
+}
+
+@keyframes bottom-to-top3 {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+
+@media (max-width: 1300px) {
+    .bg1 {
+      right:90px;
+    }
+    
+    .bg2 {
+      right:70px;
+    }
+
+    .bg3 {
+      right:30px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .bg1 {
+      right:50px;
+    }
+    
+    .bg2 {
+      right:30px;
+    }
+
+    .bg3 {
+      right:0px;
+    }
+}
+
+@media (max-width: 1080px) {
+  .footer_bg {
+    display:none;
+  }
+}
+
 @media (max-width: 750px) {
-  .Footer__menu ul li a {
+  .footer__menu ul li a {
     font-size: 14px;
     line-height: 24px;
   }
 }
 
 @media (max-width: 465px) {
-  .Footer__menu ul li a {
+  .footer__menu ul li a {
     font-size: 12px;
     line-height: 15px;
   }
-  .Footer__social ul {
+  .footer__social ul {
     column-gap: 10px;
   }
 }
 
 @media (max-width: 395px) {
-  .Footer__social ul {
+  .footer__social ul {
     column-gap: 0px;
   }
-  .Pinterest {
+  .pinterest {
     display: none;
   }
 }
 
 @media (max-width: 326px) {
-  .Footer__menu ul li a {
+  .footer__menu ul li a {
     font-size: 8px;
     line-height: 10px;
   }
 
-  .Footer__title p {
+  .footer__title p {
     font-size: 14px;
     line-height: 15px;
   }

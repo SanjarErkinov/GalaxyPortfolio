@@ -1,4 +1,4 @@
-.Contact {
+.contact {
   position: relative;
   width: 100%;
   height: 1040px;
@@ -29,14 +29,14 @@
   }
 }
 
-.Contact__container {
+.contact__container {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.Contact__body {
+.contact__body {
   position: relative;
   display: flex;
   justify-content: center;
@@ -45,20 +45,20 @@
   min-height: 600px;
 }
 
-.Contact__logo {
+.contact__logo {
   position: absolute;
   transform: rotate(1deg);
   display: none;
 }
 
-.Contact__img img {
+.contact__img img {
   position: absolute;
   z-index: 1;
   left: -155px;
   top: -90px;
 }
 
-.Contact__content {
+.contact__content {
   margin-top: 190px;
   background: rgba(47, 47, 138, 0.6);
   border-radius: 30px;
@@ -66,17 +66,17 @@
   column-gap: 92px;
 }
 
-.Contact__info {
+.contact__info {
   padding: 56px 0px 132px 91px;
 }
 
-.Contact__info h1 {
+.contact__info h1 {
   font-weight: 800;
   font-size: 24px;
   line-height: 29px;
 }
 
-.Contact__info p {
+.contact__info p {
   padding: 18px 0px 0px 0px;
   font-weight: 400;
   font-size: 15px;
@@ -89,6 +89,11 @@
   padding: 68px 0px 0px 0px;
 }
 
+.info__bottom {
+  cursor:pointer;
+  transition:.3s ease;
+}
+
 .info__bottom p {
   padding: 15px 0px 0px 0px;
   font-weight: 400;
@@ -96,20 +101,25 @@
   line-height: 24px;
   color: rgb(196, 196, 196);
   opacity: 0.7;
+  transition: .3s ease;
 }
 
-.Contact__form {
+.info__bottom p:hover {
+  opacity:1;
+}
+
+.contact__form {
   padding: 56px 101px 55px 0px;
 }
 
-.Contact__form h1 {
+.contact__form h1 {
   padding: 0px 101px 0px 0px;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
 }
 
-.Contact__form input {
+.contact__form input {
   color: #f3f1f1;
   padding: 10px 160px 12px 20px;
   margin-top: 20px;
@@ -124,7 +134,7 @@
   border-radius: 10px;
 }
 
-.Contact__form textarea {
+.contact__form textarea {
   color: #f3f1f1;
   padding: 10px 160px 0px 20px;
   margin-top: 20px;
@@ -140,12 +150,12 @@
   border-radius: 10px;
 }
 
-.Contact__form div {
+.contact__form div {
   text-align: center;
   padding: 20px 0px 0px 0px;
 }
 
-.Contact__form button {
+.contact__form button {
   color: #d9d9d9;
   font-weight: 400;
   font-size: 15px;
@@ -165,7 +175,7 @@
   transition: 0.3s ease-in-out;
 }
 
-.Contact__form button:hover {
+.contact__form button:hover {
   background: linear-gradient(113.44deg, #8346a0 8.72%, #c90eb6 81.56%);
   color: #ffffff;
 }
@@ -177,72 +187,72 @@
 }
 
 @media (max-width: 928px) {
-  .Contact__content {
+  .contact__content {
     column-gap: 30px;
   }
-  .Contact__info {
+  .contact__info {
     padding: 56px 0px 70px 91px;
   }
-  .Contact__form {
+  .contact__form {
     padding: 56px 40px 55px 0px;
   }
-  .Contact__form input {
+  .contact__form input {
     padding: 10px 70px 12px 20px;
   }
-  .Contact__form textarea {
+  .contact__form textarea {
     padding: 10px 70px 12px 20px;
   }
 }
 
 @media (max-width: 834px) {
-  .Contact__container {
+  .contact__container {
     max-width: 600px;
   }
-  .Contact__info h1 {
+  .contact__info h1 {
     font-size: 18px;
   }
-  .Contact__form h1 {
+  .contact__form h1 {
     padding: 0px 40px 0px 0px;
     font-size: 18px;
   }
 }
 
 @media (max-width: 760px) {
-  .Contact__content {
+  .contact__content {
     column-gap: 15px;
   }
-  .Contact__info {
+  .contact__info {
     padding: 56px 0px 70px 91px;
   }
-  .Contact__form {
+  .contact__form {
     padding: 56px 40px 55px 0px;
   }
-  .Contact__form input {
+  .contact__form input {
     padding: 10px 70px 12px 20px;
   }
-  .Contact__form textarea {
+  .contact__form textarea {
     padding: 10px 70px 12px 20px;
   }
-  .Contact__info h1 {
+  .contact__info h1 {
     font-size: 18px;
   }
-  .Contact__form h1 {
+  .contact__form h1 {
     padding: 0px 40px 0px 0px;
     font-size: 18px;
   }
 }
 
 @media (max-width: 700px) {
-  .Contact__container {
+  .contact__container {
     max-width: 350px;
   }
-  .Contact__content {
+  .contact__content {
     display: grid;
   }
-  .Contact__info p {
+  .contact__info p {
     display: none;
   }
-  .Contact__info h1 {
+  .contact__info h1 {
     font-size: 24px;
     line-height: 29px;
     text-align: center;
@@ -263,25 +273,25 @@
     text-decoration: transparent;
     padding: 50px 0px 0px 0px;
   }
-  .Contact__form h1 {
+  .contact__form h1 {
     text-align: start;
     font-size: 14px;
     line-height: 17px;
   }
-  .Contact__info {
+  .contact__info {
     padding: 15px 18px 12px 32px;
   }
-  .Contact__form {
+  .contact__form {
     padding: 0px 35px 27px;
     text-align: center;
   }
-  .Contact__form input {
+  .contact__form input {
     padding: 10px 40px 12px 20px;
   }
-  .Contact__form textarea {
+  .contact__form textarea {
     padding: 10px 50px 12px 20px;
   }
-  .Contact__img img {
+  .contact__img img {
     width: 143px;
     height: 361px;
     left: -28px;
@@ -290,7 +300,7 @@
 }
 
 @media (max-width: 400px) {
-  .Contact__logo {
+  .contact__logo {
     display: inline;
     right: 30px;
     top: 90px;
@@ -298,25 +308,25 @@
 }
 
 @media (max-width: 347px) {
-  .Contact__container {
+  .contact__container {
     max-width: 270px;
   }
-  .Contact__form input {
+  .contact__form input {
     padding: 5px 20px 5px 10px;
   }
-  .Contact__form textarea {
+  .contact__form textarea {
     padding: 5px 22px 5px 10px;
   }
-  .Contact__info {
+  .contact__info {
     padding: 25px 0px 0px 0px;
   }
-  .Contact__form {
+  .contact__form {
     padding: 0px 0px 20px 0px;
   }
-  .Contact__form h1 {
+  .contact__form h1 {
     padding-left: 20px;
   }
-  .Contact__logo {
+  .contact__logo {
     display: inline;
     right: 30px;
     top: 90px;

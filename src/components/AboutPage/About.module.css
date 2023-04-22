@@ -1,20 +1,21 @@
-.About {
+.about {
   width: 100%;
   height: 1040px;
-  background: url("https://i.ibb.co/cCScKX2/AboutBg.png");
+  background: url("https://i.ibb.co/0GyZsVj/about-page.png");
   background-size: no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
+  position: relative;
 }
 
-.About__container {
+.about__container {
   max-width: 650px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.About__body {
+.about__body {
   min-height: 650px;
   display: flex;
   justify-content: center;
@@ -23,15 +24,38 @@
   padding: 5px 0px;
 }
 
-.About__logo {
+.about__bg_img {
+  position: absolute;
+  right: 160px;
+  bottom:85px
+}
+
+.about__bg_img2 {
+  bottom: 0px;
+  left: 0px;
+  position: absolute;
+  transform: translateY(-8px);
+  animation: bottom-to-top 0.8s ease-in infinite alternate;
+}
+
+@keyframes bottom-to-top {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.about__logo {
   margin-bottom: 32px;
 }
 
-.About__info {
+.about__info {
   margin-top: 40px;
 }
 
-.About__title {
+.about__title {
   padding: 0px 100px 41px 55px;
   font-weight: 500;
   font-size: 16px;
@@ -39,15 +63,15 @@
   text-align: start;
 }
 
-.About__title p {
+.about__title p {
   display: inline;
 }
 
 @media (max-width: 1420px) {
-  .About {
+  .about {
     background: rgba(4, 5, 43, 0.9);
   }
-  .About__info {
+  .about__info {
     background: linear-gradient(
       139.66deg,
       rgba(198, 14, 202, 0.96) -17.01%,
@@ -56,64 +80,101 @@
     border-radius: 50%;
   }
 }
+@media (max-width: 1424px) {
+  .about__bg_img {
+    right: 50px;
+  }
+  .about__bg_img2 img {
+    width: 434px;
+    height: 254px;
+  }
+}
+
+@media (max-width: 1220px) {
+  .about__bg_img {
+    right: 10px;
+  }
+  .about__bg_img2 img {
+    width: 334px;
+    height: 204px;
+  }
+}
+
+@media (max-width: 1135px) {
+  .about__bg_img {
+    right: 0px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about__bg_img {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .about__bg_img2 {
+    display: none;
+  }
+}
 
 @media (max-width: 820px) {
-  .About {
+  .about {
     height: 800px;
   }
 }
 
 @media (max-width: 663px) {
-  .About {
+  .about {
     background: url("https://i.ibb.co/rZQvJcR/Frame-10.png");
     background-size: no-repeat;
     background-size: cover;
   }
-  .About__container {
+  .about__container {
     max-width: 550px;
   }
-  .About__info {
+  .about__info {
     background: none;
   }
 
-  .About__title p {
+  .about__title p {
     display: none;
   }
 
-  .About__title span {
+  .about__title span {
     display: inline-block;
     padding: 15px 0px;
   }
 }
 
 @media (max-width: 480px) {
-  .About__info {
+  .about__info {
     margin-bottom: 200px;
   }
-  .About__logo {
+  .about__logo {
     float: left;
     padding: 0px 0px 0px 30px;
   }
-  .About__title {
+  .about__title {
     padding: 0px 30px;
   }
 }
 
 @media (max-width: 390px) {
-  .About__logo {
+  .about__logo {
     padding: 0px 0px 0px 15px;
   }
-  .About__title {
+  .about__title {
     padding: 0px 15px;
   }
 }
 
 @media (max-width: 300px) {
-  .About__logo {
+  .about__logo {
     padding: 0px 0px 0px 10px;
     margin: 0px;
   }
-  .About__title {
+  .about__title {
     padding: 0px 10px;
     font-size: 12px;
   }

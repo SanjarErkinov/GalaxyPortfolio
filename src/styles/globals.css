@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,22 +9,90 @@
 
 body {
   font-size: 16px;
-  background-color: #04052B !important;
-  font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
+  background-color: #04052b !important;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
 }
 
-input::-webkit-input-placeholder { color: #d9d9d9; }
-textarea::-webkit-input-placeholder { color: #d9d9d9; }
+input::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
+textarea::-webkit-input-placeholder {
+  color: #d9d9d9;
+}
 
-ul, li {
+ul,
+li {
   list-style: none;
   padding: 0px;
   margin: 0px;
-}   
+}
 
 a {
   text-decoration: none;
+}
+
+
+.swiper_project {
+  margin-bottom: -180px;
+  width: 100%;
+  overflow: hidden;
+  height: 380px;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: unset !important;
+}
+
+.swiper_slide{
+  width: 150px;
+  height: 150px;
+  scale: 0.4;
+}
+
+
+.swiper_slide img {
+  height: 100%;
+  width: 100%;
+  border-radius:50%;
+}
+
+.swiper-slide-active{
+  transform: translateY(160px) !important;
+  transition: 0.3s !important; 
+  scale: 0.8;
+  /* margin: 0px 50px; */
+}
+
+.swiper-slide-prev,
+.swiper-slide-next {
+  transform: translateY(140px) !important;
+  transition: 0.3s !important;
+  scale: 0.6;
+}
+
+@media (max-width: 1400px) {
+  .swiper_project {
+    width: 70%;
+  }
+  
+}
+
+@media (max-width: 1345px) {
+  .swiper_project {
+    width: 70%;
+  }
+  
+}
+
+@media (max-width: 1196px) {
+  .swiper_project {
+    display:none;
+  }
+  
 }

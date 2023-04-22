@@ -1,4 +1,4 @@
-.Travel {
+.travel {
   width: 100%;
   height: 1024px;
   background: url("https://i.ibb.co/G9FcPCP/Travel-page.png");
@@ -10,14 +10,14 @@
   position: relative;
 }
 
-.Travel__container {
+.travel__container {
   position: relative;
   max-width: 955px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.Travel__body {
+.travel__body {
   position: relative;
   min-height: 700px;
   display: flex;
@@ -26,7 +26,7 @@
   padding: 5px 0px;
 }
 
-.Travel__logo {
+.travel__logo {
   position: absolute;
   right: -200px;
   top: -80px;
@@ -44,13 +44,13 @@
   }
 }
 
-.Travel__bottom_img {
+.travel__bottom_img {
   position: absolute;
   right: -165px;
   bottom: -180px;
 }
 
-.Travel__info h1 {
+.travel__info h1 {
   text-align: center;
   font-weight: 800;
   font-size: 64px;
@@ -58,26 +58,26 @@
   margin-bottom: 30px;
 }
 
-.Travel__content {
+.travel__content {
   display: flex;
   justify-content: center;
 }
 
-.Travel__map {
+.travel__map {
   background: #420e54;
   width: 477px;
   opacity: 0.6;
   border-radius: 30px 0px 0px 30px;
 }
 
-.Travel__explain {
+.travel__explain {
   background: #ffffff;
   width: 477px;
   opacity: 0.6;
   border-radius: 0px 30px 30px 0px;
 }
 
-.Travel__explain p {
+.travel__explain p {
   padding: 26px 81px 0px 19px;
   font-weight: 400;
   font-size: 20px;
@@ -86,43 +86,43 @@
 }
 
 @media (max-width: 1281px) {
-  .Travel__logo {
+  .travel__logo {
     display: none;
   }
 
-  .Travel__bottom_img {
+  .travel__bottom_img {
     display: none;
   }
 }
 
 @media (max-width: 997px) {
-  .Travel__map {
+  .travel__map {
     width: 350px;
   }
-  .Travel__map_img {
+  .travel__map_img {
     width: 370px;
     height: 530px;
   }
-  .Travel__explain {
+  .travel__explain {
     width: 350px;
   }
 }
 
 @media (max-width: 713px) {
-  .Travel__map {
+  .travel__map {
     width: 300px;
   }
-  .Travel__map_img {
+  .travel__map_img {
     width: 300px;
     height: 500px;
   }
-  .Travel__explain {
+  .travel__explain {
     width: 300px;
   }
 }
 
 @media (max-width: 630px) {
-  .Travel {
+  .travel {
     display: none;
   }
 }

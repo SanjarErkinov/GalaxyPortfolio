@@ -7,6 +7,7 @@ import Contact from "@/components/ContactPage/Contact";
 import Artwork from "@/components/ArtworkPage/Artwork";
 import Footer from "@/components/FooterPage/Footer";
 import Header from "@/components/HeaderPage/Header";
+import SwiperProject from "@/components/Swiper/SwiperProject";
 
 export default function HomePage() {
   return (
@@ -17,8 +18,8 @@ export default function HomePage() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
+      {/* <SwiperProject /> */}
       <Home />
       <About />
       <Project />

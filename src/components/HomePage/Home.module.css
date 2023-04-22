@@ -1,4 +1,4 @@
-.Home {
+.home {
   width: 100%;
   height: 845px;
   background: url("https://i.ibb.co/ZcX6B1j/home-page.png");
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.Bottom__img {
+.bottom__img {
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -24,13 +24,13 @@
   }
 }
 
-.Home__container {
+.home__container {
   max-width: 620px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.Home__body {
+.home__body {
   position: relative;
   display: flex;
   justify-content: center;
@@ -39,23 +39,23 @@
   min-height: 305px;
 }
 
-.Home__info {
+.home__info {
   margin-top: 70px;
 }
 
-.Home__title h1 {
+.home__title h1 {
   font-weight: 700;
   font-size: 68px;
   line-height: 96px;
 }
 
-.Home__title p {
+.home__title p {
   font-weight: 700;
   font-size: 36px;
   /* line-height: 50px; */
 }
 
-.Home__btn {
+.home__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@
   margin-top: 60px;
 }
 
-.Home__btn button {
+.home__btn button {
   padding: 10px;
   background: linear-gradient(
     113.67deg,
@@ -82,36 +82,36 @@
   /* background-blend-mode: overlay; */
 }
 
-.Home__btn button:hover {
+.home__btn button:hover {
   background: linear-gradient(113.44deg, #8346a0 8.72%, #c90eb6 81.56%);
   color: #ffffff;
 }
 
 @media (max-width: 1000px) {
-  .Bottom__img {
+  .bottom__img {
     display: none;
   }
 }
 
 @media (max-width: 700px) {
-  .Home {
+  .home {
     height: 550px;
   }
 }
 
 @media (max-width: 550px) {
-  .Home__title h1 {
+  .home__title h1 {
     font-size: 54px;
     line-height: 76px;
   }
 }
 
 @media (max-width: 515px) {
-  .Home__title h1 {
+  .home__title h1 {
     font-size: 48px;
     line-height: 76px;
   }
-  .Home__btn button {
+  .home__btn button {
     padding: 10px;
     font-size: 16px;
     line-height: 20px;
@@ -119,21 +119,21 @@
 }
 
 @media (max-width: 450px) {
-  .Home {
+  .home {
     background: rgba(4, 5, 43, 0.9);
     height: 400px;
   }
-  .Home__info {
+  .home__info {
     margin-top: 0px;
   }
-  .Home__title p {
+  .home__title p {
     font-weight: 700;
     font-size: 26px;
   }
-  .Home__btn {
+  .home__btn {
     display: grid;
   }
-  .Home__btn button {
+  .home__btn button {
     margin-bottom: 10px;
     font-size: 20px;
     line-height: 30px;
@@ -147,14 +147,14 @@
 }
 
 @media (max-width: 400px) {
-  .Home {
+  .home {
     height: 300px;
   }
-  .Home__title h1 {
+  .home__title h1 {
     font-size: 34px;
     line-height: 46px;
   }
-  .Home__btn button {
+  .home__btn button {
     padding: 10px;
     font-size: 14px;
     line-height: 15px;
@@ -162,20 +162,20 @@
 }
 
 @media (max-width: 350px) {
-  .Home {
+  .home {
     height: 400px;
   }
 }
 
 @media (max-width: 290px) {
-  .Home {
+  .home {
     height: 350px;
   }
-  .Home__title h1 {
+  .home__title h1 {
     font-size: 26px;
     line-height: 32px;
   }
-  .Home__title p {
+  .home__title p {
     font-weight: 700;
     font-size: 18px;
   }

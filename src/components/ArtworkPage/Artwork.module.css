@@ -1,4 +1,4 @@
-.Artwork {
+.artwork {
   width: 100%;
   height: 1080px;
   background: url("https://i.ibb.co/sHkj5Xb/artwork-page-1.png");
@@ -10,7 +10,7 @@
   position: relative;
 }
 
-.Artwork__logo {
+.artwork__logo {
   position: absolute;
   top: 0px;
   left: 225px;
@@ -27,19 +27,19 @@
   }
 }
 
-.Artwork__container {
+.artwork__container {
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
   padding: 0px 15px;
 }
 
-.Artwork__body {
+.artwork__body {
   padding: 5px 0px;
   min-height: 600px;
 }
 
-.Artwork__info h1 {
+.artwork__info h1 {
   text-align: center;
   font-size: 64px;
   line-height: 96px;
@@ -48,11 +48,11 @@
   margin-bottom: 155px;
 }
 
-.Artwork__bottom_img img {
+.artwork__bottom_img img {
   display: none;
 }
 
-.Artwork__info p {
+.artwork__info p {
   text-align: center;
   font-weight: 700;
   font-size: 14px;
@@ -60,19 +60,19 @@
   color: #979ea6;
 }
 
-.Artwork__info div {
+.artwork__info div {
   outline: none;
   cursor: pointer;
 }
 
 @media (max-width: 1000px) {
-  .Artwork__logo {
+  .artwork__logo {
     left: 0px;
   }
-  .Artwork__container {
+  .artwork__container {
     max-width: 600px;
   }
-  .Artwork__info div {
+  .artwork__info div {
     width: 100%;
      /* height: 301px; */
      display: flex;
@@ -80,58 +80,58 @@
 }
 
 @media (max-width: 700px) {
-    .Artwork {
+    .artwork {
       align-items: normal;
     }
-    .Artwork__logo {
+    .artwork__logo {
       display: none;
     }
-    .Artwork__info h1 {
+    .artwork__info h1 {
       margin-bottom: 0px;
     }
 }
 
 @media (max-width: 630px) {
-  .Artwork__container {
+  .artwork__container {
     max-width: 500px;
   }
 }
 
 @media (max-width: 630px) {
-  .Artwork {
+  .artwork {
     background: url("https://i.ibb.co/cX2y74Z/Art-mobile.png");
     background-size: no-repeat;
     background-size: cover;
     height: 1000px;
   }
-  .Artwork__bottom_img img {
+  .artwork__bottom_img img {
     display: inline;
     position: absolute;
   }
 }
 
 @media (max-width: 500px) {
-  .Artwork__container {
+  .artwork__container {
     max-width: 400px;
   }
 }
 
 @media (max-width: 420px) {
-  .Artwork__container {
+  .artwork__container {
     max-width: 300px;
   }
 }
 
 
 @media (max-width: 325px) {
-  .Artwork__container {
+  .artwork__container {
     max-width: 200px;
   }
-  .Artwork__info h1 {
+  .artwork__info h1 {
     margin-bottom: 0px;
     font-size: 44px;
   }
-  .Artwork__bottom_img img {
+  .artwork__bottom_img img {
     display: inline;
     position: absolute;
     width: 200px;
