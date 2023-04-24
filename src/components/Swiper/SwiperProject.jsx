@@ -39,7 +39,7 @@ export default function SwiperProject() {
         centeredSlides={true}
         slidesPerView={5}
         initialSlide={2}
-        autoplay={{ delay: 1000 }}
+        autoplay={{ delay: 1500 }}
         // spaceBetween={30}
         // loop={true}  
         modules={[Autoplay]}
